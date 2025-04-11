@@ -48,7 +48,7 @@ Pour jouer sur le serveur d'arthur
 Étape 9 :
 
   Menu Jouer
-  Vérifier qu'il y ai bien de selectionner "fabric-loader-1.21.5" + "fabric-loader-0.16.13-1.21.5"
+  Vérifier qu'il !!!y ai bien de selectionner "fabric-loader-1.21.5" + "fabric-loader-0.16.13-1.21.5"
   Puis JOUER et attendre
 
 Étape 10 :
@@ -58,4 +58,4 @@ Pour jouer sur le serveur d'arthur
   Terminé
   Et lance le serveur en cliquant sur le play de l'image
 
-        !!!  Bon jeu  !!! ;-)
+  !!!  Bon jeu  !!! ;-)
