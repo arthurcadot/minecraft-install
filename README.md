@@ -14,8 +14,9 @@ Pour jouer sur le serveur d'arthur
 
   Install fabric
     - ctrl + t
-    - cd install_minecraft_arthur
-    - java -jar fabric.jar (suivre l'installe, selectionner le dossier ~/.minecraft/, puis quitter)
+    cd install_minecraft_arthur
+    java -jar fabric.jar
+    -(suivre l'installe, selectionner le dossier ~/.minecraft/, puis quitter)
 
 Étape 4 :
 
@@ -48,7 +49,7 @@ Pour jouer sur le serveur d'arthur
 Étape 9 :
 
   Menu Jouer
-  Vérifier qu'il !!!y ai bien de selectionner "fabric-loader-1.21.5" + "fabric-loader-0.16.13-1.21.5"
+  Vérifier qu'il y ai bien de selectionner "fabric-loader-1.21.5" + "fabric-loader-0.16.13-1.21.5"
   Puis JOUER et attendre
 
 Étape 10 :
