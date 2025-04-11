@@ -15,7 +15,7 @@ cd ~
 git clone git@github.com:arthurcadot/minecraft-install.git
 
 # Se rendre dans le dossier minecraft-install
-cd minecraft-install
+cd ~/minecraft-install
 
 # Vérifier si dpkg est installé, sinon l'installer
 if ! command -v dpkg &> /dev/null
@@ -26,7 +26,7 @@ then
 fi
 
 # Installer le fichier minecraft.deb
-sudo dpkg -i minecraft.deb
+sudo dpkg -i ~/minecraft-install/minecraft.deb
 
 # Vérifier si Java est installé
 if ! command -v java &> /dev/null
@@ -38,7 +38,7 @@ then
 fi
 
 # Lancer fabric.jar
-java -jar fabric.jar
+java -jar ~/minecraft-install/fabric.jar
 
 # Afficher un message et demander confirmation avant de continuer
 echo "Vérifie que le dossier .minecraft est sélectionné et quitte quand c'est fini, puis tape sur entrer pour continuer"
@@ -61,7 +61,7 @@ done
 echo "Instalation de fabric réussi !"
 
 # Déplacer tous les fichiers du dossier mods vers ~/.minecraft/mods/
-mv mods/* ~/.minecraft/mods/
+mv ~/minecraft-install/mods/* ~/.minecraft/mods/
 echo "Les mods ont été déplacés dans ~/.minecraft/mods/"
 
 # Créer un lanceur dans le menu des applications
@@ -88,7 +88,7 @@ while true; do
     if [[ "$reponse" =~ ^(O|o|)$ ]]; then
         # Supprimer le dossier minecraft-install
         cd ~
-        rm -rf minecraft-install
+        rm -rf ~/minecraft-install/minecraft-install
         echo "Le dossier minecraft-install a été supprimé."
         
         # Supprimer ce script
