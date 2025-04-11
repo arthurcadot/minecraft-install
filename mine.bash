@@ -80,7 +80,7 @@ echo "Le lanceur Minecraft a été ajouté au menu des applications avec l'icôn
 
 # Afficher le fichier README.md avec défilement
 clear
-less ~/minecraft-install/README.md
+cat ~/minecraft-install/README.md
 
 # Demander à l'utilisateur s'il souhaite procéder à la suppression des éléments
 while true; do
