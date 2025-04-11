@@ -13,10 +13,9 @@ Pour jouer sur le serveur d'arthur
 Étape 3 :
 
   Install fabric
-    - ctrl + t
+    ctrl + t
     cd install_minecraft_arthur
-    java -jar fabric.jar
-    -(suivre l'installe, selectionner le dossier ~/.minecraft/, puis quitter)
+    java -jar fabric.jar (suivre l'installe, selectionner le dossier ~/.minecraft/, puis quitter)
 
 Étape 4 :
 
