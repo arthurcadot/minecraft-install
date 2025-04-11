@@ -12,59 +12,25 @@ Appel moi si c'est pas déjà fais
 
 Étape 2 :
 
-```bash
-git clone https://github.com/arthurcadot/minecraft-install.git
-```
-
----
-
-Étape 3 :
-
-Install minecraft.deb (clique deçu et suis l'instalation)
-
----
-
-Étape 4 :
-
-Install fabric
-ctrl + alt + t
-```bash
-cd minecraft-install
-```
-```bash
-java -jar fabric.jar
-```
-(suivre l'installe, selectionner le dossier ~/.minecraft/, puis quitter)
-
----
-
-Étape 5 :
-
-mv mods/* ~/.minecraft/mods/ (pour avoir tout les mods utiliser)
-
----
-
-Étape 6 :
-
 Lancer minecraft (cd .minecraft/launcher/ et le fichier minecraft-launcher)
 
 ---
 
-Étape 7 :
+Étape 3 :
 
 Ce connecter (SIGN IN WITH MICROSOFT)
 C'est parti
 
 ---
 
-Étape 8 :
+Étape 4 :
 
 Menu Paramètre (langue Français - France) si pas fais
 Cocher "Garder le Launcher ouvert durant l'exécution du jeu"
 
 ---
 
-Étape 9 :
+Étape 5 :
 
 Menu MINECRAFT Java Edition
 Changer de skin (Menu Skins)
@@ -74,7 +40,7 @@ Selectioner "sarah" et utiliser (pense quand tu quitte à le changer)
 
 ---
 
-Étape 10 :
+Étape 6 :
 
 Menu Jouer
 Vérifier qu'il y ai bien de selectionner "fabric-loader-1.21.5" + "fabric-loader-0.16.13-1.21.5"
@@ -82,7 +48,7 @@ Puis JOUER et attendre
 
 ---
 
-Étape 11 :
+Étape 7 :
 
 Multijoueur
 Nouveau serveur Nom et Adresse du serveur tu met "mine.cadot.pro"
