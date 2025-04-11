@@ -96,7 +96,6 @@ while true; do
         echo "Le script a été supprimé."
         break
     elif [[ "$reponse" =~ ^(N|n)$ ]]; then
-        echo "Ok je reste en vie... mais je redemande 😈"
     else
         echo "Réponse invalide, veuillez répondre par O ou N."
     fi
