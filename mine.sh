@@ -84,7 +84,7 @@ cat ~/minecraft-install/README.md
 
 # Demander à l'utilisateur s'il souhaite procéder à la suppression des éléments
 while true; do
-    read -p "Puis-je m'auto détruire ? (O/N) " reponse
+    read -p "Puis-je m'auto détruire ? (O/n) " reponse
     if [[ "$reponse" =~ ^(O|o|)$ ]]; then
         # Supprimer le dossier minecraft-install
         cd ~
@@ -96,6 +96,7 @@ while true; do
         echo "Le script a été supprimé."
         break
     elif [[ "$reponse" =~ ^(N|n)$ ]]; then
+        echo ""
     else
         echo "Réponse invalide, veuillez répondre par O ou N."
     fi
