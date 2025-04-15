@@ -8,12 +8,6 @@ then
     sudo apt install -y git
 fi
 
-# Se rendre dans le répertoire personnel
-cd ~
-
-# Cloner le dépôt Git
-git clone git@github.com:arthurcadot/minecraft-install.git
-
 # Se rendre dans le dossier minecraft-install
 cd ~/minecraft-install
 
@@ -39,10 +33,6 @@ fi
 
 # Lancer fabric.jar
 java -jar ~/minecraft-install/fabric.jar
-
-# Afficher un message et demander confirmation avant de continuer
-echo "Vérifie que le dossier .minecraft est sélectionné et quitte quand c'est fini, puis tape sur entrer pour continuer"
-read -p "Appuyez sur O pour oui (O/n) : "
 
 # Vérifier si le dossier ~/.minecraft/mods/ existe
 while [ ! -d "$HOME/.minecraft/mods" ]; do
@@ -81,25 +71,5 @@ echo "Le lanceur Minecraft a été ajouté au menu des applications avec l'icôn
 # Afficher le fichier README.md avec défilement
 clear
 cat ~/minecraft-install/README.md
-
-# Demander à l'utilisateur s'il souhaite procéder à la suppression des éléments
-while true; do
-    read -p "Puis-je m'auto détruire ? (O/n) " reponse
-    if [[ "$reponse" =~ ^(O|o|)$ ]]; then
-        # Supprimer le dossier minecraft-install
-        cd ~
-        rm -rf ~/minecraft-install/minecraft-install
-        echo "Le dossier minecraft-install a été supprimé."
-        
-        # Supprimer ce script
-        rm -- "$0"
-        echo "Le script a été supprimé."
-        break
-    elif [[ "$reponse" =~ ^(N|n)$ ]]; then
-        echo ""
-    else
-        echo "Réponse invalide, veuillez répondre par O ou N."
-    fi
-done
 
 #FIN
