@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Se rendre dans le dossier minecraft-install
-cd ~/minecraft-install
-
 # Vérifier si dpkg est installé, sinon l'installer
 if ! command -v dpkg &> /dev/null
 then
