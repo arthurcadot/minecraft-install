@@ -1,13 +1,5 @@
 #!/bin/bash
 
-# Vérifier si git est installé, sinon l'installer
-if ! command -v git &> /dev/null
-then
-    echo "Git n'est pas installé. Installation de git..."
-    sudo apt update
-    sudo apt install -y git
-fi
-
 # Se rendre dans le dossier minecraft-install
 cd ~/minecraft-install
 
